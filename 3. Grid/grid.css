@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.yacube {
+  display: grid;
+  grid-template-areas:
+    "i4 i4 i4"
+    "i3 i2 i1"
+		"i5 i5 i5";
+  gap: 10px;
+	padding: 10px;
+  background-color: bisque;
+}
+.yacube > div {
+	background-color: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	padding: 20px 0;
+	font-size: 30px;
+}
+.item1 {
+	grid-area: i1;
+}
+.item2 {
+	grid-area: i2;
+}
+.item3 {
+	grid-area: i3;
+}
+.item4 {
+	grid-area: i4;
+}
+.item5 {
+	grid-area: i5;
+}
