@@ -1,17 +1,32 @@
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
+/* memanggil body berdasarkan id */
 #body {
-	background-color: bisque;
+  background-color: bisque;
 }
+/* memanggil kotak berdasarkan class */
 .kotak {
-	width: 300px;
-	height: 200px;
-	background-color: aqua;
-	margin: 10px;
+	/* width = panjang */
+  width: 200px;
+	/* height = tinggi */
+  height: 200px;
+	/* ======================= */
+  background-color: salmon;
+  margin: 10px;
 }
-.border {
-	border-radius: 20px;
-	border: 5px solid black;
+#lingkaran {
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  margin: 10px;
+  /* untuk membuat lingkaran tambahkan border radius */
+  border-radius: 50%;
+}
+p {
+  background-color: red;
+  border: 1px solid green;
+  height: 100px;
+  width: 100px;
 }

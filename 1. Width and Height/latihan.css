@@ -1,0 +1,20 @@
+body {
+	background-color: bisque;
+}
+/* olafkwan */
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(10, 160, 60);
+  margin: 10px;
+  border: 5px solid rgb(0, 0, 12);
+}
+/* indra */
+.bola {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  border: 3px solid black;
+  border-radius: 50%;
+  margin: 10px;
+}
