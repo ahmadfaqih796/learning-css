@@ -1,0 +1,45 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body {
+	background-color: bisque;
+}
+.grid {
+	display: grid;
+	grid-template-areas: 
+	"i1 i1 i1"
+	"i2 i2 i2"
+	"i4 i3 i5"
+	"i6 i6 i6";
+	background-color: salmon;
+	gap: 10px;
+	padding: 10px;
+}
+.grid > div {
+	background-color: red;
+	font-size: 2rem;
+	color: wheat;
+	font-weight: 700;
+	text-align: center;
+	padding: 10px;
+}
+.grid .navbar {
+	grid-area: i1;
+}
+.grid .header {
+	grid-area: i2;
+}
+.grid .content {
+	grid-area: i3;
+}
+.grid .sidebarkk {
+	grid-area: i4;
+}
+.grid .sidebar {
+	grid-area: i5;
+}
+.grid .footer
+{
+	grid-area: i6;
+}
