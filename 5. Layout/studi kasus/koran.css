@@ -6,15 +6,22 @@ body {
 	background-color: bisque;
 }
 article {
+	/* ini jarak luar */
 	margin: 10px;
-	background-color: beige;
+	background-color: red;
+	/* ini jarak dalam */
 	padding: 10px;
+	/* layouting */
 	display: flex;
 	justify-content: space-between;
 }
 article p {
+	/* memberi warna pada background */
 	background-color: aqua;
+	/* mengatur ukuran panjang */
 	width: 180px;
+	/* teks rata kiri dan kanan */
 	text-align: justify;
+	/* ukuran font */
 	font-size: 1.2rem;
 }
